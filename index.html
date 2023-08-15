@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basketball Game Counter</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <section id="basketball-counter-section">
+    <div id="basketball-counter__container">
+      <button onclick="newGame();">New Game</button>
+      <div>
+        <h1 id="basketball-counter__home__team" class="basketball-counter__team">Home</h1>
+        <div class="basketball-counter__score">
+          <h1 id="basketball-counter__number__home" class="basketball-counter__number">0</h1>
+        </div>
+        <div class="basketball-counter__controlls">
+          <button onclick="addHomePoints(1);">+1</button>
+          <button onclick="addHomePoints(2);">+2</button>
+          <button onclick="addHomePoints(3);">+3</button>
+        </div>
+      </div>
+
+      <div>
+        <h1 id="basketball-counter__guest__team" class="basketball-counter__team">Guest</h1>
+        <div class="basketball-counter__score">
+          <h1 id="basketball-counter__number__guest"class="basketball-counter__number">0</h1>
+        </div>
+        <div class="basketball-counter__controlls">
+          <button onclick="addGuestPoints(1);">+1</button>
+          <button onclick="addGuestPoints(2);">+2</button>
+          <button onclick="addGuestPoints(3);">+3</button>
+        </div>
+      </div>
+
+    </div><!-- end basktetball-counter__container -->
+  </section>
+  <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+
+
+@font-face {
+  src: url("./CursedTimerUlil-Aznm.ttf");
+  font-family: Cursed Timer ULiL;
+}
+
+*{
+  margin: 0;
+}
+
+body{
+  color: #fff;
+  background: #d0e8dd;
+  text-align: center;
+}
+
+h1 {
+  font-family: Cursed Timer ULiL;
+}
+
+button{
+  color: #9AABD8;
+  
+  font-family: Cursed Timer ULiL;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  background: #1B244A;
+
+  border-radius: 5px;
+  border: 2px solid #9AABD8;
+  line-height: 27.812px; /* 154.509% */
+  padding: 8px 7px 2px 7px;
+
+  cursor: pointer;
+}
+
+.basketball-counter__team{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#basketball-counter-section{
+  margin-top: 40px;
+}
+
+#basketball-counter__container{
+  background: #1B244A;
+  width: 575px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 80px ;
+  border:6px solid #fff;
+  border-radius: 20px;
+}
+
+.basketball-counter__score{
+  background: #000;
+  border-radius: 4px; 
+  width: 155px;
+  height: 120px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.basketball-counter__number {
+  width: 120px;
+  height: 120px;
+  font-family: Cursed Timer ULiL; 
+  font-size: 90px;
+  font-weight: 400;
+  color: #F94F6D;
+  line-height: 136px /*126.666px;  140.74% */
+}
+
+.basketball-counter__controlls{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Utilitis */
+.score-highlighted{
+  color: orange;
+}
